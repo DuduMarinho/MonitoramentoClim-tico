@@ -1,0 +1,29 @@
+input {
+    height: 20px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(223, 220, 220);
+    outline: none;
+    font-family: 'Arial';
+    text-align: center;
+    transition: all ease 0.2s;
+}
+
+input:focus {
+    border-color: var(--blue70);
+}
+
+button {
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--blue70);
+    color: white;
+    cursor: pointer;
+    padding: 6px 14px 6px 14px;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    filter: saturate(40%);
+}

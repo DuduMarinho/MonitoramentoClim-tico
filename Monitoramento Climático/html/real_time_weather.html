@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\css\default_style.css">
+    <link rel="stylesheet" href="..\css\color_palette.css">
+    <link rel="stylesheet" href="..\css\real_time_weather.css">
+    <link rel="icon" href="..\img\logo.png">
+    <title>Clima em Tempo Real</title>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Consulta de Clima em Tempo Real</h1>
+        <input type="text" id="location" placeholder="Digite a localização">
+        <button onclick="getRealTimeWeather()">Consultar</button>
+        <div id="weather-result"></div>
+    </div>
+    <script src="../js/weather.js"></script>
+</body>
+</html>

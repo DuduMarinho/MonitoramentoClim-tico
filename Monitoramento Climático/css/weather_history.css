@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../img/background.main.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+    color: #fff; 
+}
+
+.weather-container {
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#weather-result, #history-result {
+    margin-top: 20px;
+}
